@@ -1,0 +1,22 @@
+body {
+    color: yellow;
+    background-image: url(../pictures/Apollo-NASA-space-679680.jpg);
+    background-size:cover;
+}
+h1 {
+    color:deepskyblue
+}
+#div1{
+    border: solid 2px blue;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 50, 150, 0.6);
+}
+.i1{
+    display: block;
+    margin-bottom: 5px;
+}
+.gomb:hover{
+box-shadow: 2px 2px 5px white;
+}
+

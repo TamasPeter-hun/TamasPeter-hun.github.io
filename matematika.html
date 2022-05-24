@@ -18,28 +18,31 @@
         <a href="írások.html">ÍRÁSOK</a>
     </div>
 </body>
-<div>
-    <h3>Üzenet küldése</h3>
+<h1>Matematika, fizika oktatás</h1>
+
     <p>Üzenet küldhető nem bármilyen témában.
         Bátran!
     </p>
-</div>
-<div id="div1">
-    <div>
-        <label for="">Üzenet</label>
-        <input type="email" name="Email" class="i1">
+
+<form id="form1">
+    <fieldset>
+        <legend>Üzenet küldése</legend>
+        <div>
+            <label for="név1">Név</label>
+            <input id="név1" type="text" class="i1">
+        </div>
+        <div>
+            <label for="email1">E-mail</label>
+            <input id="email1" type="email" class="i1">
+        </div>
+        <div>
+            <label for="üzenet1">Üzenet</label>
+            <input id="üzenet1" type="text" class="i1">
+        </div>
+    </fieldset>
+    <div id="elküldgomb">
+        <button class="gomb" type="submit">Elküldés</button>
     </div>
-    <div>
-        <label for="">E-mail</label>
-        <input type="email" name="Email" class="i1">
-    </div>
-    <div>
-        <label for="">Jelszó</label>
-        <input type="password" name="jelszó" class="i1">
-    </div>
-    <div>
-        <button class="gomb" type="submit">Elküld</button>
-    </div>
-</div>
+</form>
 
 </html>
